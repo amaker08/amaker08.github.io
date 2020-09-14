@@ -48,6 +48,9 @@ header, main, footer {
     .two-column .col-7 {
         width: calc(70% - 8px);
     }
+    .two-grid .col-3 {
+        width: calc(33.33% - 5px);
+    }
     h1 {
         font-size: 1.5rem;
     }
@@ -95,7 +98,22 @@ main {
 .col-3, .col-7 {
     width: 100%;
 }
+.two-grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+.two-grid .col-3 {
+    width: 100%;
+}
 
+.bg-img {
+    background-color: #999;
+    background-position: center;
+    background-size: cover;
+    padding: 33% 0 0;
+}
 
 footer {
     padding-top: 2px !important;
