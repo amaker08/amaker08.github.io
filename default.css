@@ -41,8 +41,13 @@ footer > div.wrapper {
 }
 
 header {
-    background: #111;
+    background-color: #633;
     color: #fff;
+
+
+    background-image: url(img/something-very-tiny.jpg);
+    background-position: center 80%;
+    background-size: cover;
 }
 
 header a.back2home {
@@ -57,7 +62,9 @@ header a.back2home:focus {
 
 header span {
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 200;
+
+    text-shadow: 1px 1px 2px #633, 1px -1px 2px #633, -1px 1px 2px #633, -1px -1px 2px #633;
 }
 
 main {
