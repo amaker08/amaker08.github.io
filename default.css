@@ -48,7 +48,7 @@ header, main, footer {
     .two-column .col-7 {
         width: calc(70% - 8px);
     }
-    .two-grid .col-3 {
+    .three-grid .col-3 {
         width: calc(33.33% - 5px);
     }
     h1 {
