@@ -29,7 +29,7 @@ a:hover, a:focus {
 }
 
 header, main, footer {
-    padding: 16px;
+    padding: 8px;
 }
 
 header > div.wrapper,
@@ -69,6 +69,7 @@ header span {
 
 main {
     min-height: calc(100% - 6rem);
+    padding-bottom: 1rem;
 }
 
 .two-column {
@@ -133,7 +134,10 @@ h1 + *, h2 + *, h3 + *, h4 + *, h5 + *, h6 + * {
 
 @media screen and (min-width: 600px) {
     header, main, footer {
-        padding: 8px;
+        padding: 8px 16px;
+    }
+    main {
+        padding-bottom: 1.5rem;
     }
     .two-column {
         display: flex;
